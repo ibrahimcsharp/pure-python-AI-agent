@@ -7,7 +7,7 @@ from openai import OpenAI
 # Ollama's OpenAI-compatible local API
 client = OpenAI(
     base_url="http://localhost:11434/v1",
-    api_key="ollama",  # Local Ollama does not require a real API key
+    api_key="ollama",  # Local Ollama does not require a real API key 
 )
 
 MODEL = "llama3.2:latest"
